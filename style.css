@@ -5,7 +5,7 @@
 }
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url(assets/bubble\ image\ 1\ js\ ca.jpg); 
+    background-image: url(./assets/bubble\ image\ 1\ js\ ca.jpg); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
