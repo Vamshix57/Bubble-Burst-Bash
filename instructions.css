@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: url("assets/insructions\ image\ 3.jpg"); */
+    background-size: cover;
+    background-color: #F3E6C0;
+}
+
+#heading{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 80px;
+    font-family: evil empire;
+    text-decoration: underline;
+}
+
+.p1{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 35px;
+}
+
+
+.p2,.p3,.p4,.p5{
+    text-align: center;
+    margin-top: 1.5%;
+    font-size: 35px;
+}
+
+.continue{
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    font-size: 3rem;
+    border: 2px solid black;
+    width: 250px;
+    padding: 5px;
+    border-radius: 20px ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
