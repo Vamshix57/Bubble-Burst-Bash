@@ -10,7 +10,7 @@ body {
 
 .game-over {
     position: relative;
-    background-color: rgba(255, 255, 255, 0.9);
+    /* background-color: rgba(255, 255, 255, 0.9); */
     border-radius: 10px;
     padding: 30px;
     text-align: center;
@@ -55,4 +55,20 @@ button {
 
 button:hover {
     background-color: #43a047;
+}
+@media (max-width: 470px) {
+    .game-over {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 6vw;
+        margin: 10px 0;
+    }
+
+    button {
+        padding: 15px 20px;
+        margin: 10px;
+        font-size: 3vw;
+    }
 }

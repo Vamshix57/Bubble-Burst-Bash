@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Arial', sans-serif;
     background-image: url(./assets/bubble\ image\ 1\ js\ ca.jpg); 
@@ -47,4 +48,16 @@ button {
 
 button:hover {
     background: #2980b9;
+}
+
+@media (max-width: 470px) {
+    h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    
+    button {
+        padding: 12px 25px;
+        font-size: 1.2em;
+    }
 }

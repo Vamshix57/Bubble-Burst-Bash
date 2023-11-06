@@ -79,7 +79,7 @@
     margin-top: 8px;
     border-radius: 30px;
     font-weight: bold;
-    height: 30px;
+    height: 43px;
     width: 8%;
     margin: 8px auto;
     /* color: greenyellow; */
@@ -101,4 +101,97 @@
     text-align: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
   }
+  .wrapper {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px auto;
+  }
   
+  h4 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  h4 span {
+    margin-left: 5px;
+  }
+  
+  .score {
+    font-weight: bold;
+    color: #FF5733; /* Change the color as desired */
+  }
+  
+  p {
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  button {
+    padding: 8px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .restart {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .cancel {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .restart:hover, .cancel:hover {
+    transform: scale(1.1);
+  }
+  
+
+  
+
+
+
+
+  @media (max-width: 470px) {
+    .bubble,
+    .bubble-two,
+    .bubble-three,
+    .bubble-four,
+    .bubble-five {
+        width: 20vw;
+        padding-bottom: 20vw;
+        height: 3px;
+        width: 80px;
+    }
+
+    .score-board {
+        width: 90%;
+        height: 25%;
+        border-radius: 10px 10px 0 0;
+        bottom: 0;
+        left: 5%;
+    }
+
+    .main-game {
+        margin: 0;
+    }
+
+    button.start-btn {
+        font-size: 4vw;
+        border-radius: 10px;
+        height: 8vw;
+        width: 50%;
+    }
+
+    .total-score {
+        padding: 3vw 20vw 12vw;
+        border-radius: 5vw;
+    }
+}
