@@ -15,7 +15,7 @@ body {
     align-items: center;
     height: 100vh;
 }
-
+/*Game name ,start button and instruction button*/
 .intro {
     text-align: center;
     color: #fff;
@@ -38,7 +38,6 @@ button {
     padding: 15px 35px;
     margin: 10px;
     font-size: 1.4em;
-    cursor: pointer;
     border: none;
     border-radius: 10px;
     background: #3498db;

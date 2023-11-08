@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    /* background: url("assets/insructions\ image\ 3.jpg"); */
+     background: url("assets/insructions\ image\ 3.jpg"); 
     background-size: cover;
     background-color: #F3E6C0;
 }
@@ -47,11 +47,11 @@ a{
 
 @media (max-width: 470px) {
     #heading {
-        font-size: 8vw; /* Adjust font size for smaller screens */
+        font-size: 8vw; 
     }
 
     .p1, .p2, .p3, .p4, .p5, .continue {
-        font-size: 5vw; /* Adjust font size for smaller screens */
-        margin-top: 5%; /* Adjust margin */
+        font-size: 5vw; 
+        margin-top: 5%; 
     }
 }

@@ -11,9 +11,8 @@ let shadow = document.querySelector('.shadow');
 let startBtn = document.querySelector('.start-btn');
 
 
-// let bgmMusic = new Audio("./assets/bgm.mp3")
-// bgmMusic.play();
-// loop = true;
+let bgmMusic = new Audio("./assets/bubbles-14830.mp3")
+loop = true;
 
 function createBubble() {
     let div = document.createElement('div');
@@ -105,5 +104,6 @@ document.querySelector('.cancel').addEventListener('click', function () {
 });
 startBtn.addEventListener('click', function () {
     startGame();
+    bgmMusic.play();
     document.querySelector('.main-game').style.display = 'none';
 });
